@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Harrisburg Taxi Services | Registration</title>
+		<link href="basic.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+
+			<header>
+				<img class="logo" src="logo.png" style="float:left; width:10%; padding:20px 10px 0px 0;"></img>
+			  <h1>Harrisburg Taxi Services
+			  <h5 class="punch">Travel Fast! Travel Smart!!</h5>
+			</header>
+
+			<section id="innerWrapper">
+				<nav class="sideRail">
+				  <input type="button" name="Home" value="Home" onclick="window.location.href='index.html'"/>
+				  <input type="button" name="Services" value="Services"/>
+				  <article style="height:50%"></article>
+				   
+				</nav>
+				<article class="cnt">
+					<h2>User Registration</h2>
+				<form>
+
+					<fieldset>
+
+						<legend><b>Your Details</b></legend>
+							<div style="width:50%;">
+								<br/><br/>
+								Email
+								<input name=email-test type=email>
+								<br/><br/>
+								Tel
+								<input name=tel-test type=tel>
+								<br/><br/>
+								
+								Datetime-local
+								<input name=datetime-local-test type=datetime-local>
+								<br/><br/>
+								
+								Range
+								<input name=range-test type=range min=0 max=150 step=5 onchange="this.form.rangeval.value=this.value;">
+								<output name=rangeval for=range-test value=0></output>
+								<br/><br/>
+								<input type=submit value=Submit>
+						</div>
+					</fieldset>
+
+				</form>
+
+				</article>
+			</section>
+			<footer>
+				<cite> &copy; All image copyright 2016 - 2017</cite>
+			</footer>
+
+	</body>
+</html>
